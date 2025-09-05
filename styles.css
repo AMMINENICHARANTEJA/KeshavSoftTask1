@@ -1,0 +1,102 @@
+
+body {
+  padding-top: 4.5rem;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #d8b4f8, #c084fc);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #4b006e !important;
+}
+.navbar .nav-link {
+  color: #4b006e !important;
+  transition: color 0.3s;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #6a0dad !important;
+}
+
+.hero {
+  background: linear-gradient(180deg, #ede9fe, #ffffff);
+  padding: 6rem 1rem;
+  text-align: center;
+}
+.hero h1 {
+  color: #4b006e;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #6a0dad;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #4b006e;
+}
+.btn-outline-secondary {
+  color: #6a0dad;
+  border-color: #6a0dad;
+}
+.btn-outline-secondary:hover {
+  background-color: #6a0dad;
+  color: #fff;
+}
+
+.card {
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(106, 13, 173, 0.1);
+  color: #6a0dad;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  background-color: #fff;
+}
+.form-control,
+.form-select {
+  border-radius: 0.5rem;
+  border: 1px solid #ddd;
+}
+.form-control:focus,
+.form-select:focus {
+  border-color: #6a0dad;
+  box-shadow: 0 0 0 0.2rem rgba(106, 13, 173, 0.25);
+}
+
+footer {
+  background-color: #ede9fe;
+}
+footer span,
+footer a {
+  color: #4b006e !important;
+}

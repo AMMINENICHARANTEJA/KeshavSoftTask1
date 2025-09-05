@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SweetScoops</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">SweetScoops</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-primary btn-sm" href="contact.html">Order Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero py-5 text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold text-dark">Delicious Ice Cream, Made Fresh Daily 🍦</h1>
+      <p class="lead text-secondary">From classic vanilla to exotic mango – taste happiness in every scoop.</p>
+      <a href="about.html" class="btn btn-primary btn-lg mt-3">Explore Flavors</a>
+      <a href="contact.html" class="btn btn-outline-secondary btn-lg mt-3">Order Now</a>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4 row-cols-1 row-cols-md-3">
+        <div class="col">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <div class="card-icon mb-3 fs-2">🥛</div>
+              <h5 class="card-title">Fresh Ingredients</h5>
+              <p class="card-text text-secondary">We use only natural milk, cream, and seasonal fruits to craft every scoop.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <div class="card-icon mb-3 fs-2">🍨</div>
+              <h5 class="card-title">Unique Flavors</h5>
+              <p class="card-text text-secondary">From Bubblegum to Mango Tango – discover our signature creations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <div class="card-icon mb-3 fs-2">🚚</div>
+              <h5 class="card-title">Fast Delivery</h5>
+              <p class="card-text text-secondary">Order online and get your favorite ice cream delivered within minutes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4 mt-5 border-top">
+    <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center">
+      <span class="text-muted small">© <span id="year"></span> SweetScoops Ice Cream</span>
+      <a href="about.html" class="small link-secondary">About</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
